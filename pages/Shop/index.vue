@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section data-bs-version="5.1" class="slider1 mbr-embla cid-twnoInjg8k" id="slider1-g">
+        <section data-bs-version="5.1" class="slider1 mbr-embla cid-twnlrA4vPo" id="slider1-a">
 
     
 
@@ -9,7 +9,8 @@
 <div class="position-relative">
     <div class="col-12">
         <h2 class="mbr-section-title mbr-fonts-style display-2">
-            Category</h2>
+            Our top products
+        </h2>
     </div>
     <div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play-interval="5" data-draggable="true">
         <div class="embla__viewport container-fluid">
@@ -128,6 +129,6 @@ export default {
 
 <script setup>
     useHead({
-        title: '',
+        title: 'Our Shop'
     })
 </script>

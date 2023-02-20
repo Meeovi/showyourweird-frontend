@@ -1,74 +1,133 @@
 <template>
     <div>
-        <section class="header7 cid-t7VDHQ5IKP mbr-fullscreen" id="header7-0">
-
+        <section data-bs-version="5.1" class="header1 supplym5 cid-twnk8TL5L5 mbr-fullscreen" id="header1-0">
     
 
     
+    
 
-<div class="text-right container">
-    <div class="row justify-content-end">
-        <div class="col-12 col-lg-5">
-            <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Alternate Starter</strong></h1>
-            
-            <p class="mbr-text mbr-fonts-style display-7">
-                Welcome to the Alternate CMS Starter Template. This template is left to be simplistic and is ready for general use.</p>
-            <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="https://docs.alternatecms.com" target="_blank">Download AlternateCMS</a></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="title-wrapper">
+                    <h1 class="mbr-section-title mbr-fonts-style display-1">Showcase your Uniqueness</h1>
+                    
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-primary display-4" href="#">
+                            <strong>READY!</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img class="image_1" src="../assets/images/background2.jpg" alt="">
+                    <img class="image_2" src="../assets/images/image1.jpg" alt="">
+                    <img class="image_3" src="../assets/images/image5.jpg" alt="">
+                </div>
+            </div>
         </div>
     </div>
-</div>
 </section>
 
-<section class="features1 cid-t7VEe9Onzb" id="features1-1">
+<section data-bs-version="5.1" class="features2 supplym5 cid-twnk9wQXd5" id="features2-1">
 
+    
 
+    
+    
 
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-lg-9">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Features</strong>
-            </h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">
+                        Click to read more
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 card">
+                <div class="card-wrapper">
+                    <div class="card-title-wrapper">
+                        <h3 class="mbr-title_1 mbr-fonts-style display-7">
+                            To supplying
+                        </h3>
+                    </div>
+                    <div class="text-wrapper">
+                        <h2 class="mbr-desc_1 mbr-fonts-style display-4">
+                            <strong>Laboriosam maiores nulla quae qui quia temporibus ullam unde?</strong>
+                        </h2>
+                        <p class="mbr-text_1 mbr-fonts-style display-4">
+                            Adipisicing elit. Accusantium adipisci atque aut cupiditate deserunt dolores eaque esse
+                            exercitationem modi, odit officia perferendis praesentium quaerat quisquam.
+                        </p>
+                        <a class="link-wrapper" href="#">
+                            <p class="mbr-link_1 mbr-fonts-style display-4">
+                                <strong>See more...</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 card">
+                <div class="card-wrapper">
+                    <div class="card-title-wrapper">
+                        <h3 class="mbr-title_2 mbr-fonts-style display-7">
+                            To retailing
+                        </h3>
+                    </div>
+                    <div class="text-wrapper">
+                        <h2 class="mbr-desc_2 mbr-fonts-style display-4">
+                            <strong>Laboriosam maiores nulla quae qui quia temporibus ullam unde?</strong>
+                        </h2>
+                        <p class="mbr-text_2 mbr-fonts-style display-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloremque eligendi eum
+                            fugit iste laudantium nihil quas saepe sit voluptates. A autem consequatur expedita.
+                        </p>
+                        <a class="link-wrapper" href="#">
+                            <p class="mbr-link_2 mbr-fonts-style display-4">
+                                <strong>See more...</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
             
         </div>
     </div>
-    <div class="row">
-        <div class="card col-12 col-md-6 col-lg-3">
-            <div class="card-wrapper">
-                <div class="card-box align-center">
-                    <div class="iconfont-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-search mobi-mbri" style="color: rgb(68, 121, 217); fill: rgb(68, 121, 217);"></span>
+</section>
+
+<section data-bs-version="5.1" class="header2 supplym5 cid-twnkae0j2d mbr-fullscreen" id="header2-2">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="title-wrapper">
+                    <h1 class="mbr-section-title mbr-fonts-style display-1">Personalities Matter!!</h1>
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-primary display-4" href="#">
+                            <strong>READY!</strong>
+                        </a>
                     </div>
-                    <h5 class="card-title mbr-fonts-style display-7"><strong>Mellisearch Integration</strong></h5>
-                    <p class="card-text mbr-fonts-style display-7">This template is integrated with Mellisearch for powerful search functionality. Just follow the <a href="https://docs.meilisearch.com/learn/getting_started/quick_start.html#setup-and-installation" class="text-primary" target="_blank">steps here</a> to get started with Mellisearch.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img class="image_1" src="../assets/images/image9.jpg" alt="">
+                    <img class="image_2" src="../assets/images/image3.jpg" alt="">
+                    <img class="image_3" src="../assets/images/image10.jpg" alt="">
+                    <img class="image_4" src="../assets/images/image11.jpg" alt="">
                 </div>
             </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-3">
-            <div class="card-wrapper">
-                <div class="card-box align-center">
-                    <div class="iconfont-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-responsive-2 mobi-mbri"></span>
-                    </div>
-                    <h5 class="card-title mbr-fonts-style display-7"><strong>Mobile Friendly</strong></h5>
-                    <p class="card-text mbr-fonts-style display-7">All of our templates are responsive by design to support display across various screens.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card col-12 col-md-6 col-lg-3">
-            <div class="card-wrapper">
-                <div class="card-box align-center">
-                    <div class="iconfont-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri"></span>
-                    </div>
-                    <h5 class="card-title mbr-fonts-style display-7"><strong>Vuetify Integrations</strong></h5>
-                    <p class="card-text mbr-fonts-style display-7">Easy styling with powerful components that are styled with <a href="https://vuetifyjs.com/en/" class="text-primary" target="_blank">Vuetify</a>.</p>
-                </div>
-            </div>
-        </div>
-        
     </div>
-</div>
 </section>
     </div>
 </template>
@@ -83,6 +142,6 @@
 
 <script setup>
     useHead({
-        title: 'Amazon Starter Template',
+        title: 'Show Your Weird',
     })
 </script>

@@ -3,12 +3,12 @@
     <v-app-bar id="topnav" density="compact">
       <template v-slot:prepend>
         <v-btn variant="flat" @click="drawer = !drawer">
-          <v-icon start icon="fas fa-bars"></v-icon> Menu
+          <v-icon start icon="fas fa-bars"></v-icon> Browse
         </v-btn>
       </template>
       
       <v-app-bar-title><a class="logobrand" href="/">
-          <v-icon start icon="fas fa-hurricane"></v-icon>Logo
+          <v-icon start icon="fas fa-user-astronaut"></v-icon>ShowYourWeird
         </a></v-app-bar-title>
 
       <v-text-field density="compact" variant="solo" label="Search" append-inner-icon="fas fa-search" single-line
@@ -19,22 +19,6 @@
         <v-col>
           <v-btn :prepend-icon="theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon'" @click="onClick"></v-btn>
         </v-col>
-        <v-col>
-          <v-menu :location="location" transition="slide-y-transition">
-            <template v-slot:activator="{ props }">
-              <v-btn variant="flat" v-bind="props">
-                <v-icon start icon="fas fa-bell"></v-icon>
-              </v-btn>
-            </template>
-            <v-list>
-              <v-list-item title="" value="" href="/"></v-list-item>
-              <v-divider></v-divider>
-              <v-list-item title="All Notifications" value="notifications" href="/admin/user/notifications">
-              </v-list-item>
-            </v-list>
-          </v-menu>
-        </v-col>
-
         <v-col>
           <ecosystemmenu />
         </v-col>
@@ -58,7 +42,7 @@
       <v-card>
         <v-layout>
           <v-navigation-drawer class="sidebarSection" v-model="drawer" temporary>
-            <v-list-item prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg" title="John Leider" nav>
+            <v-list-item nav>
               <template v-slot:append>
                 <v-btn variant="text" icon="fas fa-chevron-left" @click.stop="rail = !rail"></v-btn>
               </template>
@@ -66,26 +50,11 @@
 
             <v-list density="compact" nav>
               <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
-              <v-list-group prepend-icon="fas fa-feather-pointed" value="content manager">
-                <template v-slot:activator="{ props }">
-                  <v-list-item v-bind="props" title="Content Manager"></v-list-item>
-                </template>
-                <v-list-item prepend-icon="fas fa-feather" title="Blog" value="Blog" href="/Admin/Content/Blog">
-                </v-list-item>
-              </v-list-group>
-              <v-list-item prepend-icon="fas fa-user" title="Customers" value="Customers" href="/Admin/Customers">
-              </v-list-item>
-              <v-list-item prepend-icon="fas fa-gear" title="Settings" value="settings"
-                href="/Admin/Settings/general-settings"></v-list-item>
+              <v-list-item prepend-icon="fas fa-arrow-down-a-z" title="Categories" value="Categories" href="/categories/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-lines-learning" title="Wall of Weird" value="Wall of Weird" href="/wall"></v-list-item>
+              <v-list-item prepend-icon="fas fa-shopping-cart" title="Shop" value="Shop" href="/shop/"></v-list-item>
             </v-list>
 
-            <v-spacer></v-spacer>
-
-              <div class="pa-2">
-                <v-btn block>
-                  Logout
-                </v-btn>
-              </div>
           </v-navigation-drawer>
           <v-main id="sidebarNav"></v-main>
           <main id="mainSection">
